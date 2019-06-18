@@ -23,7 +23,7 @@
         <div class="col-md-4 col-md-offset-4">
             <div class="login-panel panel">
                 <div class="panel-body">
-                    <a href="http://www.emiratesgraphic.com/" target="_blank"><img style="width: 300px;" src="{{URL::to('/img/Group 175.png')}}"></a>
+                    <a href="#" target="_blank"><img style="width: 100px; opacity: 0.7;" src="http://www.clker.com/cliparts/9/P/E/q/D/M/blue-pharmacy-logo-md.png"></a>
                     <form role="form" method="POST" action="{{ url('/login') }}">
                         <div class="form-group">
                             <input class="form-control" placeholder="Email" name="email" type="email">

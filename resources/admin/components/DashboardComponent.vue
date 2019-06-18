@@ -4,8 +4,8 @@
 
 <template>
     <div class="welcome__holder">
-        <h1>Welcome to Emirates Graphic CMS (4.0)</h1>
-        <p>Please navigation through pages in order to change the content</p>
+        <h1>Pharmacy Managment System</h1>
+        <p>Lenda: Strukturimi dhe Arkitektura Softuerike</p>
     </div>
 </template>
 

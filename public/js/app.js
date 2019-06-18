@@ -72,6 +72,10 @@ app.run(function($rootScope, $http, $timeout) {
                 "type":"user-details",
                 "limit": 'all'
             },
+            {
+                "type":"products",
+                "limit": 'all'
+            },
         ]
     };
 

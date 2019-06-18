@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Emirates Graphic CMS</title>
+    <title>Pharmacy Managment System</title>
 
     <link rel="stylesheet" type="text/css" href="{{url('css/build.min.css')}}">
     <link rel="stylesheet" href="{{url('v3 bootstrap/bootstrap/dist/css/bootstrap.min.css')}}">

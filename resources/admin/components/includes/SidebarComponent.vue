@@ -35,7 +35,7 @@
 	<div>
 	<div class="navigation__holder">
 		<div class="logo">
-			<a href="https://www.emiratesgraphic.com/"><img :src="'/img/Group 175.png'"></a>
+            <a href="#" target="_blank"><img style="width: 100px; opacity: 0.7;" src="http://www.clker.com/cliparts/9/P/E/q/D/M/blue-pharmacy-logo-md.png"></a>
 			</div>
 			<div class="row">
 				 <div class="side-menu">
@@ -70,9 +70,9 @@
 			</div>
 			<p class="admin__copyrightet">Copyrighted by EmiratesGraphic</p>
 		</div>
-		<div class="header__container">
+		<div class="header__container" style="background-image: url(../img/solidbg_1.png);">
 	  		<a class="visit__website" href="/home" target="_blank">View Website</a>
-	  		<a class="log__out" href="/logout">Log Out</a>
+	  		<a class="log__out" href="/logout" style="color: #e74c3c;"><b>Log Out</b></a>
 		</div>
 	</div>
 
