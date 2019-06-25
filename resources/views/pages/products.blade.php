@@ -23,6 +23,7 @@
                 <th>Other Details</th>
                 <th>Production Date</th>
                 <th>Expire Detail</th>
+                <th>Barcode</th>
             </tr>
         </thead>
         <tbody>
@@ -33,6 +34,7 @@
                 <td><div ng-bind-html="uesers['collections']['other_details']['en']"></div></td>
                 <td><%uesers.collections.production_date |  moment: 'format': 'MMM DD, YYYY'%></td>
                 <td><%uesers.collections.expiration_date |  moment: 'format': 'MMM DD, YYYY'%></td>
+                <td><%uesers['collections']['barcode']['en']%></td>
             </tr>
         </tbody>
         <tfoot>
@@ -43,6 +45,7 @@
                 <th>Location</th>
                 <th>Order Date</th>
                 <th>Order Detail</th>
+                <th>Barcode</th>
             </tr>
         </tfoot>
     </table>
