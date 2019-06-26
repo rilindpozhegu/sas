@@ -28,7 +28,7 @@
         </thead>
         <tbody>
             <tr ng-repeat="uesers in includes.global.many[1]['products']">
-                <td><%uesers['collections']['name']['en']%></td>
+                <td><a href="/products/<%uesers.id%>/<%uesers.slugable.en%>"><%uesers['collections']['name']['en']%></td></a>
                 <td><%uesers['collections']['type']['en']%></td>
                 <td><%uesers['collections']['gram']['en']%></td>
                 <td><div ng-bind-html="uesers['collections']['other_details']['en']"></div></td>

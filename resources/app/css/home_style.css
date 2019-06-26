@@ -57,3 +57,27 @@ body {
 .table_general {
 	width: 100%;
 }
+
+.member_section_all {
+	padding-top: 20vh;
+	padding-bottom: 5%;
+}
+.member_section_all .member_image {
+    height: 300px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.member_text {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.06), 0 1px 10px 0 rgba(0,0,0,.01), 0 2px 4px -1px rgba(0,0,0,.02);
+    transition: ease all .3s;
+	padding: 10px;
+	text-align: center;
+}
+
+.member_section_all .col-md-8 .member_image {
+	width: 300px !important;
+	height: 100px !important;
+}

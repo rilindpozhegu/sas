@@ -6,7 +6,7 @@
 
 @include('includes.slider_all')
 
-<div class="container main_body">
+<div class="container main_body">test
     <div class="row">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="https://asia.ifoam.bio/wp-content/uploads/2018/12/avatar__181424.png" alt="Card image cap">

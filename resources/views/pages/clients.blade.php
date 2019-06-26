@@ -27,7 +27,7 @@
         </thead>
         <tbody>
             <tr ng-repeat="uesers in includes.global.many[0]['user-details']">
-                <td><%uesers['collections']['name']['en']%></td>
+                <td><a href="/perdoruesit/<%uesers.id%>/<%uesers.slugable.en%>"><%uesers['collections']['name']['en']%></td></a>
                 <td><%uesers['collections']['surname']['en']%></td>
                 <td><div ng-bind-html="uesers['collections']['details']['en']"></div></td>
                 <td><%uesers['collections']['location']['en']%></td>
